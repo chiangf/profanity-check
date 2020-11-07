@@ -67,6 +67,11 @@ predict_prob(['go to hell, you scum'])
 
 Note that both `predict()` and `predict_prob` return [`numpy`](https://pypi.org/project/numpy/) arrays.
 
+In order to retrain models:
+```
+python profanity_check/train_profanity_predictor.py
+```
+
 ## More on How/Why It Works
 
 ### How
