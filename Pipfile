@@ -8,8 +8,8 @@ pylint = "*"
 black = "*"
 
 [packages]
-scikit-learn = "==0.22.2.post1"
-joblib = "==0.14.1"
+scikit-learn = "*"
+joblib = "*"
 pandas = "*"
 
 [requires]

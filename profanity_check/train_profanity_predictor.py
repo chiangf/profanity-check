@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.calibration import CalibratedClassifierCV
 from sklearn.svm import LinearSVC
-from sklearn.externals import joblib
+import joblib
 
 dirname = os.path.dirname(__file__)
 
