@@ -3,10 +3,10 @@ import numpy as np
 import joblib
 
 vectorizer = joblib.load(
-    pkg_resources.resource_filename("profanity_check", "data/vectorizer2.joblib")
+    pkg_resources.resource_filename("profanity_check", "data/vectorizer.joblib")
 )
 model = joblib.load(
-    pkg_resources.resource_filename("profanity_check", "data/model2.joblib")
+    pkg_resources.resource_filename("profanity_check", "data/model.joblib")
 )
 
 
